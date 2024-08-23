@@ -1,0 +1,62 @@
+body {
+    font-size: 18px; /* Ajustado para melhorar a legibilidade */
+    background-color: darkblue;
+    color: yellow;
+    font-family: "Gupter", serif;
+    text-align: center;
+    margin: 0;
+    height: 100vh; /* Ajustado para ocupar a altura total da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 20px; /* Ajustado para uma melhor consistência */
+    font-family: "Gupter", serif;
+    border: none; /* Removido borda padrão dos botões */
+    padding: 10px 20px; /* Adicionado preenchimento para melhor aparência */
+    margin: 10px; /* Adicionado margem entre os botões */
+    cursor: pointer; /* Mudança do cursor para indicar que é clicável */
+}
+
+.btn-proximo3 {
+    background-color: rgb(216, 0, 0);
+    color: black;
+}
+
+.btn-proximo4 {
+    background-color: rgb(10, 99, 21);
+    color: black;
+}
+
+.btn-proximo5 {
+    background-color: rgb(0, 123, 194);
+    color: black;
+}
+
+.btn-proximo6 {
+    background-color: yellow;
+    color: black; /* Adicionado para garantir contraste adequado */
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto; /* Adicionado para centralizar o conteúdo horizontalmente */
+}
+
+img {
+    max-width: 100%; /* Ajustado para garantir que as imagens não ultrapassem o contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
